@@ -23,5 +23,6 @@ class game{
             currentGrenier = this.greniers[(currentGrenier.id-1)%12];
         }
         this.current_player = 1-this.current_player;
+        this.greniers[grenierId].nb_graines = 0;
     }
 }
